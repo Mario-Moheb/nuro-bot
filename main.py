@@ -375,4 +375,4 @@ async def on_message(message):
             save_data()
 
 if __name__ == "__main__":
-    bot.run(os.environ.get('TOKEN'))
+    bot.run(os.environ.get('DISCORD_TOKEN'))
